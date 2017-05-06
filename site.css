@@ -43,3 +43,7 @@ footer {
 p{
     text-align: justify;
 }
+
+nav a {
+    text-decoration: none;
+}
