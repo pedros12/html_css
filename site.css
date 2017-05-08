@@ -10,6 +10,7 @@ h1, h2 {
 }
 
 .principal-title {
+	text-transform: uppercase;
 	text-align: center;
 	background-color: #851944;
 	color: #FFF;
@@ -34,6 +35,10 @@ p {
 .rodape{
 	background-color: #000;
 	color: #F2FFFC;
+}
+
+.clearfix {
+		clear: both;
 }
 
 nav a {
@@ -65,8 +70,24 @@ blockquote, aside, footer {
 	text-align: center;
 }
 
+.navegacao-site h1{
+	text-transform: uppercase;
+}
+
+.navegacao-site a {
+	text-transform: lowercase;
+	text-decoration: none;
+}
+
 .social-icon li{
   display: inline-block;
+}
+
+.social-icon a {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	text-indent: -99999px;
 }
 
 aside h1 {
@@ -99,4 +120,45 @@ article {
 		text-align: center;
 		background-color: #E6E7E8;
 		text-decoration: none;
+}
+
+.github {
+		background-image: url(github.png);
+}
+
+.twitter {
+		background-image: url(twitter.png);
+}
+.linkedin {
+		background-image: url(linkedin.png);
+}
+
+.fiat {
+		float: right;
+}
+
+.petrobras {
+		float: left;
+}
+
+main h2{
+		clear: both;
+}
+
+main {
+		width: 85%;
+		float: left;
+}
+
+.navegacao-site, .minhafoto {
+		width: 15%;
+		float: right;
+		box-sizing: border-box;
+	  border-bottom: 10px black solid;
+		border-left: 10px black solid;
+}
+
+cite {
+		font-style: italic;
+		float: right;
 }
