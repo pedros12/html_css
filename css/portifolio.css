@@ -1,0 +1,14 @@
+.imagens li {
+     border: 8px black solid;
+     background-color: #FAFFFC;
+     padding: 16px;
+     margin-right: 16px;
+     margin-bottom: 16px;
+     width: 45%;
+     box-sizing: border-box;
+     float: left;
+   }
+
+.imagens img{
+    width: 100%;
+}
