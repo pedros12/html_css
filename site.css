@@ -35,6 +35,9 @@ p {
 .rodape{
 	background-color: #000;
 	color: #F2FFFC;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
 }
 
 .clearfix {
@@ -148,11 +151,14 @@ main h2{
 main {
 		width: 85%;
 		float: left;
+		padding-bottom: 80px;
 }
 
-.navegacao-site, .minhafoto {
+.navegacao-site {
 		width: 15%;
 		float: right;
+		position: relative;
+		top: 310px;
 		box-sizing: border-box;
 	  border-bottom: 10px black solid;
 		border-left: 10px black solid;
@@ -161,4 +167,12 @@ main {
 cite {
 		font-style: italic;
 		float: right;
+}
+
+.minhafoto {
+		position: absolute;
+		top: 0;
+		right: 0;
+		border-bottom: 10px black solid;
+		border-left: 10px black solid;
 }
